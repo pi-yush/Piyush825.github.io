@@ -6,7 +6,8 @@
 }
 
 body {
-    font-family: 'Times New Roman', Times; 
+    font-family: 'Monaco', monospace;
+    /* font-family: 'Times New Roman', Times;  */
     /* font-family: JMH Typewriter, JMH-Typewriter; */
     line-height: 1.0;
     color: #333;
@@ -116,7 +117,7 @@ section p, section ul {
 
 section ul li {
     margin-left: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 /* Footer */
