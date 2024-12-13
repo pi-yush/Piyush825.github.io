@@ -6,8 +6,8 @@
 }
 
 body {
-    font-family: 'Monaco', monospace;
-    /* font-family: 'Times New Roman', Times;  */
+    /* font-family: 'Monaco', monospace; */
+    font-family: 'Times New Roman', Times; 
     /* font-family: JMH Typewriter, JMH-Typewriter; */
     line-height: 1.0;
     color: #333;
@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-    width: 80%; /* Wider container */
+    width: 65%; /* Wider container */
     max-width: 1200px;
     background-color: #fff;
     border-radius: 8px;
@@ -88,7 +88,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #ffffff; /* Light text color for contrast */
     font-weight: bold;
 }
@@ -110,15 +110,22 @@ section h2 {
 }
 
 section p, section ul {
-    font-size: 1.25em;
+    font-size: 1.15em;
     color: #0d2f48;
     margin-bottom: 10px;
 }
 
 section ul li {
+    line-height: 1.15;
     margin-left: 20px;
     margin-bottom: 10px;
 }
+
+/* section ol li {
+    margin-left: 20px;
+    margin-bottom: 10px;
+} */
+
 
 /* Footer */
 footer {
