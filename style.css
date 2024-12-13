@@ -62,9 +62,9 @@ header {
 /* Navigation */
 nav {
     position: relative;
-    left: 50%;             /* Center nav based on the viewport */
-    transform: translateX(-50%);
-    width: 100vw;          /* Full viewport width */
+    left: 50%;             
+    transform: translateX(-50%); 
+    width: 100vw;         
     background-color: #426885; /* Matches the page background color */
     padding: 3px 0;
     margin-bottom: 30px;
@@ -78,8 +78,8 @@ nav ul {
 }
 
 nav ul li {
-    /* font-size: 1.8em;
-    color: #ffffff; */
+    font-size: 0.9em;
+    /* color: #ffffff; */
     padding-right: 25px; /* Additional padding for right alignment */
     border-right: 2px solid #ccc; /* Add right border */
     margin: 0 15px;
