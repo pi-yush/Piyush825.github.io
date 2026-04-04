@@ -1,0 +1,172 @@
+<!-- New webpage for collaborators and students, styled in keeping with piyushs.in theme -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborators & Students</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Scoped styles only for this page */
+
+        .students-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 24px;
+            align-items: start;
+        }
+
+        .student-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Image box (supports actual images) */
+        .student-photo {
+            width: 120px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            background: #e6e6e6; /* fallback placeholder color */
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+    <!-- Page Title -->
+    <header style="text-align:center; padding: 20px 0;">
+        <h1 style="font-family: Georgia; font-size: 36px; margin-bottom: -20px; color: #222;">NetPhreak Lab</h1>
+
+        <!-- <h2 style="font-size: 24px; margin-bottom: 10px; color: #222;">[Made up of two wordsNetwork or Internet <a href="https://en.wikipedia.org/wiki/Phreaking" target="_blank">Phreakers</a>.]</h2> -->
+         
+    </header>
+
+    <p style="font-size: 20px; margin-bottom: 10px; color: #222;">[<b><i>Net</i></b> for Network or Internet and <b><i>Phreak</i></b> inspired from <a href="https://en.wikipedia.org/wiki/Phreaking" target="_blank">Phreaking</a>.]</p>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="index.html#publications">Publications</a></li>
+            <li><a href="index.html#service">Academic Service</a></li>
+            <li><a href="index.html#teaching">Teaching</a></li>
+            <li><a href="latest-news.html">Latest News</a></li>
+            <li><a href="prospective-students.html">Prospective Students</a></li>
+            <li><a href="collaborators-and-students.html">NetPhreak Lab</a></li>
+            <li><a href="Piyush-CV.pdf">CV</a></li>
+        </ul>
+    </nav>
+
+    <hr style="height: 3px; margin-top: 20px;">
+
+    <!-- Current Students Section -->
+    <section id="current-students" style="padding: 20px;">
+        <h2 style="font-size: 28px; color: #222; margin-bottom: 20px;">Current Students</h2>
+
+        <h3 style="font-size: 22px; color: #222; margin-bottom: 20px;">PhD (Co-advising)</h3>
+
+        <div class="students-grid">
+
+            <!-- Student card (copy/paste to add a student) -->
+            <div class="student-card">
+                <img class="student-photo" src="images/arjun.jpg" alt="Arjun Gupta">
+                <div class="student-text" style="width:100%;">
+                    <h3 style="margin: 0; font-size: 18px;">Arjun Gupta</h3>
+                    <p style="margin: 2px 0 2px 0; color: #020202; font-size: 15px"> IIT Bombay</p>
+                    <p style="margin: 2px 0 2px 0; color: #020202; font-size: 15px"> Advisor: Devashish Gosain</p>
+                    <div style="font-size: 14px; color: #201f1f;">2025 — present</div>
+                </div>
+            </div>
+
+            <!-- Student without image (fallback placeholder remains) -->
+            <div class="student-card">
+                <img class="student-photo" src="images/default-placeholder.png" alt="Student Name">
+                <div class="student-text" style="width:100%;">
+                    <h3 style="margin: 0; font-size: 18px;">Roshan</h3>
+                    <p style="margin: 2px 0 2px 0; color: #020202; font-size: 15px"> IIT Bombay</p>
+                    <p style="margin: 2px 0 2px 0; color: #020202; font-size: 15px"> Advisor: Devashish Gosain</p>
+                    <div style="font-size: 14px; color: #201f1f;">2025 — present</div>
+                </div>
+            </div>
+
+        </div>
+
+        <h3 style="font-size: 22px; color: #222; margin-bottom: 20px; margin-top: 20px">Undergrads</h3>
+
+        <div class="students-grid">
+
+            <!-- Undergrad card 1 -->
+            <div class="student-card">
+                <img class="student-photo" src="images/default-placeholder.png" alt="Adarsh">
+                <div class="student-text" style="width:100%;">
+                    <h3 style="margin: 0; font-size: 18px;">Adarsh</h3>
+                    <p style="margin: 2px 0 2px 0; color: #020202; font-size: 15px"> IIT Delhi</p>
+                    <div style="font-size: 14px; color: #201f1f;">December 2025 — present</div>
+                </div>
+            </div>
+
+            <!-- Undergrad card 2 -->
+            <div class="student-card">
+                <img class="student-photo" src="images/default-placeholder.png" alt="Abhishek">
+                <div class="student-text" style="width:100%;">
+                    <h3 style="margin: 0; font-size: 18px;">Abhishek</h3>
+                    <p style="margin: 2px 0 2px 0; color: #020202; font-size: 15px"> IIT Delhi</p>
+                    <div style="font-size: 14px; color: #201f1f;">December 2025 — present</div>
+                </div>
+            </div>
+
+            <!-- Undergrad card 3 -->
+            <div class="student-card">
+                <img class="student-photo" src="images/default-placeholder.png" alt="Aditya">
+                <div class="student-text" style="width:100%;">
+                    <h3 style="margin: 0; font-size: 18px;">Aditya</h3>
+                    <p style="margin: 2px 0 2px 0; color: #020202; font-size: 15px"> IIT Delhi</p>
+                    <div style="font-size: 14px; color: #201f1f;">December 2025 — present</div>
+                </div>
+            </div>
+
+            <!-- Undergrad card 4 -->
+            <div class="student-card">
+                <img class="student-photo" src="images/default-placeholder.png" alt="Nirbhay">
+                <div class="student-text" style="width:100%;">
+                    <h3 style="margin: 0; font-size: 18px;">Nirbhay</h3>
+                    <p style="margin: 2px 0 2px 0; color: #020202; font-size: 15px"> IIT Delhi</p>
+                    <div style="font-size: 14px; color: #201f1f;">December 2025 — present</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Past Students Section
+    <section id="past-students" style="padding: 20px;">
+        <h2 style="font-size: 28px; color: #222; margin-bottom: 20px;">Past Students</h2>
+
+        <div class="students-grid">
+
+            <div class="student-card">
+                <img class="student-photo" src="images/past-student.jpg" alt="Past Student">
+                <div class="student-text" style="width:100%;">
+                    <h3 style="margin: 0; font-size: 18px;">Student Name</h3>
+                    <p style="margin: 6px 0 4px 0; color: #555;">Former PhD Student</p>
+                    <div style="font-size: 14px; color: #777;">Graduated 2023 — Now: Researcher at XYZ</div>
+                </div>
+            </div>
+
+        </div>
+    </section> -->
+
+    <hr style="height: 3px; margin-top: 20px;">
+
+</div>
+</body>
+</html>
